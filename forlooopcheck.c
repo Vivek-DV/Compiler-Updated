@@ -45,7 +45,7 @@ int main(int argc,char *argv[])
     if(strcmp("for",lexeme[k])==0)
     {
       int c=0,j=k+1;
-      if(strcmp("(",lexeme[k+1])!=0)
+      if(strcmp("(",lexeme[j])!=0)
       {
         flag=1;
         break;
